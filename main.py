@@ -113,7 +113,7 @@ def main():
                 fireball_state = "ready"
             
             if fireball_state == "fire":
-                window.blit(fireball_surf, (fireball_rect.x + 16, fireball_rect.y + 10))
+                window.blit(fireball_surf, (fireball_rect.x + 70, fireball_rect.y))
                 fireball_rect.y -= FIREBALL_Y_STEP
             
             # Draw spaceship
